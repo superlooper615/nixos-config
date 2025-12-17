@@ -57,5 +57,11 @@
   networking.hostName = "banana-elitebook";
   networking.networkmanager.enable = true;
 
+  # 6. VM Testing Configuration
+  virtualisation.vmVariant = {
+    virtualisation.memorySize = 2048; # Use 2GB memory
+    virtualisation.cores = 2;
+  };
+
   system.stateVersion = "24.05"; 
 }
