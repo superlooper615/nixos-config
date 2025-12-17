@@ -1,10 +1,6 @@
 { config, pkgs, ... }:
 
 {
-  imports = [ 
-    ./hardware-configuration.nix 
-  ];
-
   # 1. User Account: Banana
   users.users.banana = {
     isNormalUser = true;
